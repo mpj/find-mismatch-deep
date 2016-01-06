@@ -1,0 +1,18 @@
+{
+  "name": "find-mismatch-deep",
+  "version": "1.0.0",
+  "description": "Deep find the first mismatch between an object and a pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony_default_parameters --harmony_destructuring test.js"
+  },
+  "author": "Mattias Petter Johansson <mpj@mpj.me>",
+  "license": "MIT",
+  "dependencies": {
+    "is-plain-object": "^2.0.1",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
