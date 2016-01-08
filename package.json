@@ -1,6 +1,6 @@
 {
   "name": "find-mismatch-deep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deep find the first mismatch between an object and a pattern",
   "main": "index.js",
   "scripts": {
