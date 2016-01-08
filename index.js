@@ -9,7 +9,6 @@ module.exports = function findMismatchDeep(expected, actual, path = []) {
   if (isBothPlainObject) {
     // check that all expected patterns match actual
     const pairsExpected = _.pairs(expected)
-    console.log(pairsExpected)
     for (var i = 0; i < pairsExpected.length; i++) {
       const [expectedKey, expectedPatternForKey] = pairsExpected[i]
 
